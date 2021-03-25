@@ -17,7 +17,7 @@ if (isset($_POST['simpansiswa'])) {
 
     // koneksi jika berhasil
     if ($query) {
-    header('Location:tampilsiswa.php');
+    header('Location:halaman_admin.php');
     }else{
         header('Location:simpansiswa.php?status=gagal');
     }
