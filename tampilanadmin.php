@@ -24,6 +24,10 @@
       <div class="card-body login-card-body">
         <p class="login-box-msg">Login Khusus Admin</p>
 
+<!--      password
+username : admin
+password : 123455678;
+-->
         <form action="login.php" method="POST">
           <div class="input-group mb-3">
             <input type="text" class="form-control" placeholder="Isi User Name"  name="username">
