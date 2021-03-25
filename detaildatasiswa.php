@@ -49,7 +49,7 @@ $sis = mysqli_fetch_array($query);
     <td><?php echo $sis['jurusan'] ?></td>
     <td><?php echo $sis['keterangan_siswa'] ?></td>
     </tr>
-    <td><a href="/data_sekolah/tampilsiswa.php" class="btn btn-danger">Back</a></td>
+    <td><a href="/data_sekolah/halaman_admin.php" class="btn btn-danger">Back</a></td>
     </tbody>
 </table>
     </div>
