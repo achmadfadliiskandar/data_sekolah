@@ -16,7 +16,7 @@ $sql = "UPDATE siswa SET nama='$nama', ttl='$ttl', alamat='$alamat',foto='$foto'
 $query = mysqli_query($connect, $sql);
 
 if ($query) {
-    header('Location: tampilsiswa.php');
+    header('Location: halaman_admin.php');
 }else {
     header('Location: editsiswa.php?status=gagal');
 }
